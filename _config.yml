@@ -1,5 +1,5 @@
-title: Ben Balter
-description: Attorney, open source developer, product manager
+title: Dominik Downarowicz
+description: Dynamics AX / 365 technical consulant
 
 lang: en-US
 branch: main
@@ -16,17 +16,14 @@ footer_pages:
 disqus:
   shortname: DISQUS_USERNAME
 
-# Google Analytics tracking id
-ga_username: UA-xxxxxxxx-x
-
 # Links to include on the contact page
 contact_links:
   - name: Twitter
     url: https://twitter.com/DOWNARDO
     icon: twitter
-  - name: Facebook
-    url: https://facebook.com/BenBalter
-    icon: facebook
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/dominik-downarowicz/
+    icon: linkedin
 
 # Front matter defaults
 defaults:
@@ -66,5 +63,4 @@ exclude:
   - "*.ts"
 
 theme: null
-repository: benbalter/retladb
 permalink: pretty
