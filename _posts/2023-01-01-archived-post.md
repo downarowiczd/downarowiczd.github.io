@@ -4,4 +4,4 @@ description: Description of the archived post
 archived: true
 ---
 
-This is an archived post.
+This is an archived post. Dominik
