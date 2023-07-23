@@ -9,7 +9,7 @@ One of our clients was using AX2009 for the whole company and we had to migrate 
 
 ## Solution
 
-As the company had many product like cables where we need the inventory dimension **size** and so we needed to differentiate between products and product variants. In the import file I already set the productquerymode correctly to **item** or **variant**. And in the description field of the replenishment template line I put only the **itemid** in it if it was and item and if it was and **variant**, it put the following string in it **itemid|sizeid**. So now my runnable class can readout if it is an item or variant and create the correct query for us.
+As the company had many product like cables where we need the inventory dimension **size** and so we needed to differentiate between products and product variants. In the import file I already set the productquerymode correctly to **item** or **variant**. And in the description field of the replenishment template line I put only the **itemid** in it if it was and item and if it was and **variant**, it put the following string in it **itemid\|sizeid**. So now my runnable class can readout if it is an item or variant and create the correct query for us.
 
 The code can alos be run as a custom script!
 
