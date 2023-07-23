@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+ <div class="page page-{{ page.id | slugify }}">
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+
+    <h1 class="display-4 text-primary">{{ page.title | smartify }}</h1>
+    <div class="float-start pt-1 pe-3">{% avatar {{site.github.owner_name}} size=100 %}</div>
+    {{ content }}
+
+    </div>
+  </div>
+</div>
