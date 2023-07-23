@@ -10,6 +10,7 @@ branch: main
 nav_pages:
   - index.html
   - about.md
+  - historicSite.md
 
 footer_pages:
   - fine-print.md
@@ -51,6 +52,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 exclude:
   - vendor/bundle/
