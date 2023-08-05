@@ -3,9 +3,9 @@
     "collect": {
       "staticDistDir": "./_site",
       "url": [
-        "http://localhost/index.html",
-        "http://localhost/about/index.html",
-        "http://localhost/2023/08/05/CancelSalesOrderWithoutPosition/index.html"
+        "http://downardo.at/index.html",
+        "http://downardo.at/about/index.html",
+        "http://downardo.at/2023/08/05/CancelSalesOrderWithoutPosition/index.html"
       ]
     }, 
     "assert": {
