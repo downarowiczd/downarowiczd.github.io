@@ -23,7 +23,7 @@ public RefRecId getPositionCount()
 
 After finding a sales order for that, the script creates a new sales line entry with one of our dummy items (999999999). And after that we cancel the appropriate position in the system. The part **InterCompanyUpdateRemPhys::synchronize** is needed to update sales remain amount in the sales line. It is doing exactly the same, as the form **SalesUpdateRemain** in AX2009. As the difference from remain qty to 0 (delta) is remain qty, I only took the entry **ledtQtyDifference = ltabSalesLine.RemainSalesPhysical;**.
 For our case with inserting a sales line and cancelling it that is enough, but in other scenarions you need to differenciate between *remain invent physical* and *remain sales physical*. Have fun :)
- 
+
 ## AX2009 Job
 
 ```text
