@@ -73,5 +73,8 @@ exclude:
   - "*.json"
   - "*.ts"
 
+include:
+  - search.json
+
 theme: null
 permalink: pretty
