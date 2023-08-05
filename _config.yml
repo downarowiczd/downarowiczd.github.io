@@ -16,6 +16,7 @@ linkedin: dominik-downarowicz
 nav_pages:
   - index.html
   - about.md
+  - search.html
   - historicSite.md
 
 footer_pages:
