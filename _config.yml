@@ -1,15 +1,17 @@
-title: Dominik Downarowicz | Dynamics AX tech consultant
+title: Dominik Downarowicz | Personal blog
 tagline: Dominik Downarowicz | Journey as a Dynamics AX / 365 technical consulant. Discover with me the world of Dynamics AX / 365 FO and many other things.
-description: Journey as a Dynamics AX / 365 technical consulant
+description: Journey of a Dynamics AX / 365 technical consulant
 url: https://downardo.at/
 author:
   name: Dominik Downarowicz
   twitter: downardo
-lang: en-US
+lang: en_US
 branch: main
 twitter:
   username: downardo
   card: summary
+github_username: downarowiczd
+linkedin: dominik-downarowicz
 
 # Pages to include in header navigation
 nav_pages:
