@@ -59,6 +59,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jemoji
 
 exclude:
   - vendor/bundle/
