@@ -8,4 +8,4 @@ D365 F&O offers you the possibilty to customize many processes in your warehouse
 ## Custom Work Type
 
 You can find the custom work types under: **Warehouse amanagement -> Setup -> Work -> Custom work types**
-[Menu D365 Custom Work Types](/assets/img/MenuCustomWorkTypes.png)
+![Menu D365 Custom Work Types](/assets/img/MenuCustomWorkTypes.png)
