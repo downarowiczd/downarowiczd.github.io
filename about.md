@@ -41,7 +41,7 @@ MS Dynamics AX / D365 FO developer with experience in administration, developing
   | Austrian Independennt Filmfestival | Vienna 2019 |
   | Zeitimpuls Festival | Vienna 2019 |
   | Under the Radar | Vienna 2019 |
-  | Chep Thrills! Zero Budget Film Festival | Sheffield, UK 2019 |
+  | Cheap Thrills! Zero Budget Film Festival | Sheffield, UK 2019 |
   | Bio-Fiction | Vienna 2019 |
   | AFSAD Kisa Film Festival | Ankara 2019 |
   | Timeshare - A night of screenings (Finalist) | Lakewood, Colorado USA 2019 |
