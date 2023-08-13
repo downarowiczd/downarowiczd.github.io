@@ -35,6 +35,7 @@ MS Dynamics AX / D365 FO developer with experience in administration, developing
 
   Link to another festival source: [Dream Screenings](https://reisenbauer-film.com/film/screenings.php?film=dream)
 
+  {:class="table table-bordered table-striped"}
   | Festivals | Place |
   | --- | --- |
   | Austrian Independennt Filmfestival | Vienna 2019 |
@@ -45,4 +46,3 @@ MS Dynamics AX / D365 FO developer with experience in administration, developing
   | AFSAD Kisa Film Festival | Ankara 2019 |
   | Timeshare - A night of screenings (Finalist) | Lakewood, Colorado USA 2019 |
   | International Moving Film Festival | Iran 2019 |
-  {:.table-striped}
