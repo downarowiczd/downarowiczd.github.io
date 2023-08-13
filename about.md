@@ -23,17 +23,15 @@ MS Dynamics AX / D365 FO developer with experience in administration, developing
 
 ## Movies
 
-* [Precious Gift](https://www.reisenbauer-film.com/precious/crew.html) 
+* [Precious Gift](https://www.reisenbauer-film.com/precious/crew.html)
     
   Beatrice is involved in mysterious events. Because of a strange contract she has to discover a painful but wonderful truth. A short film according to Dantes Divine Comedy and a most precious gift.
-  [IMDb Site](https://www.imdb.com/title/tt5233126/?ref_=nm_ov_bio_lk) 
+  [IMDb Site](https://www.imdb.com/title/tt5233126/?ref_=nm_ov_bio_lk)
 
-
-* [Dream](https://www.reisenbauer-film.com/dream/) 
+* [Dream](https://www.reisenbauer-film.com/dream/)
     
   Dream discusses the use of artificial intelligence in form of an experimental short film and by using artificial intelligence.
   [IMDb Site](https://www.imdb.com/title/tt5233126/?ref_=nm_ov_bio_lk)
-
 
   Link to another festival source: [Dream Screenings](https://reisenbauer-film.com/film/screenings.php?film=dream)
   |Festivals|Place|
