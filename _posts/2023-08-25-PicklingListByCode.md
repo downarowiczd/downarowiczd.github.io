@@ -7,6 +7,7 @@ description: How to create a picking list in AX2009/AX2012 from X++ code.
 
 With the following code sample you can create a picking list for all sales positions in the sales order.
 The SalesUpdate parameter defines the selected quantities from the sales order. In the case of a picking list we want to select all quantities. For example in the case of the invoice document we want to select the SalesUpdate as PackingSlip so you only invoice positions that have been delivered.
+
 ```text
 static void down1_createSalesPickingList(Args _args)
 {
@@ -26,6 +27,7 @@ static void down1_createSalesPickingList(Args _args)
 Currently I do not know how to create a picking list by code for certain sales order positions. I once saw on an another blog some aproach by modifing the salesparm table before running the SalesFormLetter class. So let's go throught that aproach.
 
 So we create the pickling list still with the SalesFormLetter class but we performe the ***update()*** (see the previous job) methode manually and before calling ***run()***  we edit the **SalesParmLine**.
+
 ```text
 static void down1_createSalesPickingListLine(Args _args)
 {
