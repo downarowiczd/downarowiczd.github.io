@@ -14,12 +14,12 @@ And for that reason we have the Big O Notation.
 ## Big O Notation
 
 The Big O Notation describes the worst case scenario of how complex our algorithm is. Big O defines how the performance is going to change if we are going to increase the input size for the alogrithm. But it does not tell you how fast the alogrithm is going to run. In the time complexity it can tell you about how long it is going to run.
-Big O notation uses algebraic expressions to describe the complexity of the alogrithm. 
+Big O notation uses algebraic expressions to describe the complexity of the alogrithm.
 It measures the efficiency and performance of your algorithm using time and space complexity. So the space complexity is going to tell you how much memory is going to be used to execute the alogrithm. And the time complexity goint to tell you how long the alogrithm is going to run.
 
 For my work and for many other developers it is important to have a look a the time complexity of their algorithms.
 
-Nice StackOverFlow post that explains Big O notations really handy: https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly 
+Nice StackOverFlow post that explains Big O notations really handy: https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly
 
 Here are some of the most important examples for Big O notations and there are many others, but these should be enough for the beginning.
 
