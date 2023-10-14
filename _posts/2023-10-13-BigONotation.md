@@ -14,18 +14,20 @@ And for that reason we have the Big O Notation.
 ## Big O Notation
 
 The Big O Notation describes the worst case scenario of how complex our algorithm is. Big O defines how the performance is going to change if we are going to increase the input size for the alogrithm. But it does not tell you how fast the alogrithm is going to run. In the time complexity it can tell you about how long it is going to run.
-Big O notation uses algebraic  expressions to describe the complexity of the alogrithm. 
+Big O notation uses algebraic expressions to describe the complexity of the alogrithm. 
 It measures the efficiency and performance of your algorithm using time and space complexity. So the space complexity is going to tell you how much memory is going to be used to execute the alogrithm. And the time complexity goint to tell you how long the alogrithm is going to run.
 
 For my work and for many other developers it is important to have a look a the time complexity of their algorithms.
+
+Nice StackOverFlow post that explains Big O notations really handy: https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly 
 
 Here are some of the most important examples for Big O notations and there are many others, but these should be enough for the beginning.
 
 ### O(1) -> Constant Time
 
-Algorithms described as O(1) have **no growth rate, meaning they don’t take longer the larger their input gets**. Their growth rate is classed as constant. 
+Algorithms described as O(1) have **no growth rate, meaning they don’t take longer the larger their input gets**. Their growth rate is classed as constant.
 For example accessing an array and returing an element at a specific index, will always have the same constant time complexity independet of the array size (the amounts of entries in the array).
-Another example would be the inserting of an element into the list or similar things. 
+Another example would be the inserting of an element into the list or similar things.
 
 **O(1)** would be the best case scenario for an alogrithm.
 
@@ -45,7 +47,7 @@ A great example is binary search functions for sorted arrays. It begins by going
 
 This is where many of the famous sorting algorithms land on the Big O spectrum. Algorithms defined as O(n log n) have a similar growth rate to **O(n)** except that it’s multiplied by the log of number of elements in the data set.
 
-Example O(n log(n)) would be some sorting alogrithms like the famous **mergesort**. So lets take an alogrithm that loops through the whole array and for each iteration it does something with other elements in the array, that would be **O(n^2)**. But the alogrithm only does something we a specific selection of the array. The algorithm has some way of deciding about which elements to look at and which he currently does not need. And that would be then **O(n log(n)**).
+Example O(n log(n)) would be some sorting alogrithms like the famous **mergesort**. So lets take an alogrithm that loops through the whole array and for each iteration it does something with other elements in the array, that would be **O(n^2)**. But the alogrithm only does something we a specific selection of the array. The algorithm has some way of deciding about which elements to look at and which he currently does not need. And that would be then **O(n log(n)**.
 
 ### O(2^n) -> Exponential Time
 
