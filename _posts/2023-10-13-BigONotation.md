@@ -47,7 +47,7 @@ A great example is binary search functions for sorted arrays. It begins by going
 
 This is where many of the famous sorting algorithms land on the Big O spectrum. Algorithms defined as O(n log n) have a similar growth rate to **O(n)** except that it’s multiplied by the log of number of elements in the data set.
 
-Example O(n log(n)) would be some sorting alogrithms like the famous **mergesort**. So lets take an alogrithm that loops through the whole array and for each iteration it does something with other elements in the array, that would be **O(n^2)**. But the alogrithm only does something we a specific selection of the array. The algorithm has some way of deciding about which elements to look at and which he currently does not need. And that would be then **O(n log(n)**.
+Example O(n log(n)) would be some sorting alogrithms like the famous **mergesort**. So lets take an alogrithm that loops through the whole array and for each iteration it does something with other elements in the array, that would be **O(n^2)**. But the alogrithm only does something we a specific selection of the array. The algorithm has some way of deciding about which elements to look at and which he currently does not need. And that would be then **O(n log(n))**.
 
 ### O(2^n) -> Exponential Time
 
