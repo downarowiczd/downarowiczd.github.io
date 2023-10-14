@@ -19,7 +19,7 @@ It measures the efficiency and performance of your algorithm using time and spac
 
 For my work and for many other developers it is important to have a look a the time complexity of their algorithms.
 
-Nice StackOverFlow post that explains Big O notations really handy: https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly
+Nice StackOverFlow post that explains Big O notations really handy: <https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly>
 
 Here are some of the most important examples for Big O notations and there are many others, but these should be enough for the beginning.
 
