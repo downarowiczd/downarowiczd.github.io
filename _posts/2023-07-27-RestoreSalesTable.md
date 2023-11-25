@@ -9,7 +9,7 @@ There are sometimes constelations where the user deletes the header of the sales
 
 ## Solution
 
-You could try to cancle the entries directly over AOT in the databrowser. But I went with the approach to restore the header of the salesorder from **SalesTableDelete** without restoring the sales lines. And after that the user can manually cancel the sales order.
+You could try to cancel the entries directly over AOT in the databrowser. But I went with the approach to restore the header of the salesorder from **SalesTableDelete** without restoring the sales lines. And after that the user can manually cancel the sales order.
 
 ### AX2009 Job
 
