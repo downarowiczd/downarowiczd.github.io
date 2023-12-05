@@ -1,0 +1,94 @@
+site_name: DOWNARDO
+site_url: https://downardo.at
+site_author: Dominik Downarowicz
+#repo_url: https://github.com/downarowiczd/downarowiczd.github.io
+plugins:
+  - search
+  - blog
+  - tags
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:dominik@downardo.at
+    - icon: fontawesome/brands/github
+      link: https://github.com/downarowiczd
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/dominik-downarowicz
+  tags:
+      Dynamics 365 Finance and Operations: d365fo
+      Axapta: axapta
+      Warehouse: warehouse
+  blog:
+      pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+      categories_allowed:
+        - Dynamics 365 Finance and Operations
+        - Azure
+        - Power Platform
+        - .NET
+        - Other
+        - Axapta
+  homepage: https://downardo.at
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
+  - Collection:
+      - Library/index.md
+  - About me: about.md
+theme:
+  name: material
+  icon:
+    logo: material/home
+    tag:
+      d365fo: simple/dynamics365
+      warehouse: material/warehouse
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.select
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+copyright: >
+  Copyright &copy; 2013 - 2023 Dominik Downarowicz
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
