@@ -1,8 +1,5 @@
 {
-  "author": "Ben Balter",
-  "bugs": {
-    "url": "https://github.com/benbalter/retlab/issues"
-  },
+  "author": "Dominik Downarowicz",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
@@ -32,7 +29,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-import": "^2.27.5",
     "file-loader": "^6.2.0",
-    "jsonlint": "^1.6.3",
+    "@sedlak.r/jsonlint": "^2.1.0",
     "mini-css-extract-plugin": "^2.7.6",
     "npm-check-updates": "^16.14.15",
     "postcss-loader": "^8.1.1",
