@@ -4,6 +4,6 @@ AllCops:
     - '_site/**/*'
     - 'node_modules/**/*'
     - 'vendor/bundle/**/*'
-  TargetRubyVersion: 2.7
+  TargetRubyVersion: 3.0.5
 
 require: rubocop-performance
