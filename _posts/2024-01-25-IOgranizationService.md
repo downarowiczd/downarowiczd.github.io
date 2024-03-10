@@ -3,7 +3,6 @@ title: D365 F&O IOrganizationService for Dataverse
 description: Use the IOrganizationService connection to interact with Dataverse
 ---
 
-
 ## IOrganizationService for Dataverse connections
 
 With F&O environments becoming linked to Power Platform environments opens us with the opportunity to interact from F&O straight with Dataverse.
