@@ -1,0 +1,65 @@
+---
+_posts/2023-07-23-ReplenishmentTemplate.md:
+  - _posts/2023-08-05-CancelSalesOrderWithoutPosition.md
+  - _posts/2023-08-12-CustomWorkTypes.md
+  - _posts/2023-08-25-PicklingListByCode.md
+  - _posts/2024-01-25-IOgranizationService.md
+  - _posts/2023-07-27-RestoreSalesTable.md
+  - _posts/2023-07-28-SettleCustTransOpen.md
+  - _posts/2023-07-28-RecalcVendCashDisc.md
+_posts/2023-07-27-RestoreSalesTable.md:
+  - _posts/2023-08-05-CancelSalesOrderWithoutPosition.md
+  - _posts/2023-08-25-PicklingListByCode.md
+  - _posts/2023-07-23-ReplenishmentTemplate.md
+  - _posts/2023-07-28-SettleCustTransOpen.md
+  - _posts/2023-07-28-RecalcVendCashDisc.md
+  - _posts/2024-01-25-IOgranizationService.md
+  - _posts/2023-08-12-CustomWorkTypes.md
+_posts/2023-07-28-RecalcVendCashDisc.md:
+  - _posts/2023-07-28-SettleCustTransOpen.md
+  - _posts/2023-08-05-CancelSalesOrderWithoutPosition.md
+  - _posts/2023-08-25-PicklingListByCode.md
+  - _posts/2023-07-23-ReplenishmentTemplate.md
+  - _posts/2023-07-27-RestoreSalesTable.md
+  - _posts/2024-01-25-IOgranizationService.md
+  - _posts/2023-08-12-CustomWorkTypes.md
+_posts/2023-07-28-SettleCustTransOpen.md:
+  - _posts/2023-07-28-RecalcVendCashDisc.md
+  - _posts/2023-07-23-ReplenishmentTemplate.md
+  - _posts/2023-08-05-CancelSalesOrderWithoutPosition.md
+  - _posts/2023-07-27-RestoreSalesTable.md
+  - _posts/2023-08-25-PicklingListByCode.md
+  - _posts/2024-01-25-IOgranizationService.md
+  - _posts/2023-08-12-CustomWorkTypes.md
+_posts/2023-08-05-CancelSalesOrderWithoutPosition.md:
+  - _posts/2023-07-27-RestoreSalesTable.md
+  - _posts/2023-07-23-ReplenishmentTemplate.md
+  - _posts/2023-08-25-PicklingListByCode.md
+  - _posts/2023-08-12-CustomWorkTypes.md
+  - _posts/2023-07-28-RecalcVendCashDisc.md
+  - _posts/2024-01-25-IOgranizationService.md
+  - _posts/2023-07-28-SettleCustTransOpen.md
+_posts/2023-08-12-CustomWorkTypes.md:
+  - _posts/2023-07-23-ReplenishmentTemplate.md
+  - _posts/2024-01-25-IOgranizationService.md
+  - _posts/2023-08-05-CancelSalesOrderWithoutPosition.md
+  - _posts/2023-08-25-PicklingListByCode.md
+  - _posts/2023-07-28-SettleCustTransOpen.md
+  - _posts/2023-07-27-RestoreSalesTable.md
+  - _posts/2023-07-28-RecalcVendCashDisc.md
+_posts/2023-08-25-PicklingListByCode.md:
+  - _posts/2023-08-05-CancelSalesOrderWithoutPosition.md
+  - _posts/2023-07-23-ReplenishmentTemplate.md
+  - _posts/2023-07-27-RestoreSalesTable.md
+  - _posts/2023-08-12-CustomWorkTypes.md
+  - _posts/2024-01-25-IOgranizationService.md
+  - _posts/2023-07-28-SettleCustTransOpen.md
+  - _posts/2023-07-28-RecalcVendCashDisc.md
+_posts/2024-01-25-IOgranizationService.md:
+  - _posts/2023-08-12-CustomWorkTypes.md
+  - _posts/2023-07-23-ReplenishmentTemplate.md
+  - _posts/2023-08-25-PicklingListByCode.md
+  - _posts/2023-08-05-CancelSalesOrderWithoutPosition.md
+  - _posts/2023-07-28-SettleCustTransOpen.md
+  - _posts/2023-07-27-RestoreSalesTable.md
+  - _posts/2023-07-28-RecalcVendCashDisc.md
