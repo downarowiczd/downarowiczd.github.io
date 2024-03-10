@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
+
 # gem 'retlab', path: '../retlab'
+
 group :jekyll_plugins do
   gem 'jekyll', '~> 4.0'
   gem 'jekyll-avatar'
@@ -16,7 +18,7 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'retlab', github: 'benbalter/retlab'
 end
-  
+
 group :test, :development do
   gem 'classifier-reborn', github: 'jekyll/classifier-reborn'
   gem 'github-pages-health-check'
@@ -31,4 +33,3 @@ group :test, :development do
   gem 'rubocop-rspec'
   gem 'webrick'
 end
-
