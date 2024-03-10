@@ -1,6 +1,6 @@
 ---
 title: D365 F&O IOrganizationService for Dataverse
-description: How to create a picking list in AX2009/AX2012 from X++ code.
+description: Use the IOrganizationService connection to interact with Dataverse
 ---
 
 
@@ -18,7 +18,7 @@ To be able to use that feature, we need to enable in the **PPAC (Power Platform 
 With that we can create X++ code to interact with Dataverse. We can not only perform CRUD operations on Dataverse entities, we can check if a user has certain security roles, or if solutions/apps are installed, and we can call custom web APIs in Dataverse.
 Microsoft already started using this feature in applications like the new Business Performance Analytics (BPA) preview or the CoPilot features use this connection. Microsoft made for example the SysDataverseLookup class to make it easier to create F&O lookups with Dataverse data.
 Just imagine how many new possibilities emerge with the ability to connect F&O with Dataverse on the business logic level without the need to setup Dual Write. Wonderful!
- 
+
 I posted a short video demonstrating my little runnable class example on [LinkedIn](https://www.linkedin.com/posts/activity-7152688922899234816-01yO?utm_source=share&utm_medium=member_desktop).
 
 ![Example](/assets/img/IOrganizationServiceExample.png){:width="70%"}
