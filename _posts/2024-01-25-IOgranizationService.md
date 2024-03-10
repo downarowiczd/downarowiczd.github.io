@@ -11,7 +11,7 @@ Microsoft enabled us the usage of the IOrganizationService in F&O to connect to 
 
 To be able to use that feature, we need to enable in the **PPAC (Power Platform Admin Center)** in your environment under settings -> Features the following setting:
 
-![PPAC impersonation settings](/assets/img/FODataverseImpersonation.png){:width="50%"}
+![PPAC impersonation settings](/assets/img/FODataverseImpersonation.png){:width="70%"}
 
 *From March 2024 that setting should be enabled by default on all environments.*
 
@@ -21,7 +21,7 @@ Just imagine how many new possibilities emerge with the ability to connect F&O w
  
 I posted a short video demonstrating my little runnable class example on [LinkedIn](https://www.linkedin.com/posts/activity-7152688922899234816-01yO?utm_source=share&utm_medium=member_desktop).
 
-![Example](/assets/img/IOrganizationServiceExample.png){:width="50%"}
+![Example](/assets/img/IOrganizationServiceExample.png){:width="70%"}
 
 Link to my [Microsoft Dynamics 365 blog entry](https://community.dynamics.com/blogs/post/?postid=d5bfeb7e-99bb-ee11-92bd-000d3a01c528)
 
