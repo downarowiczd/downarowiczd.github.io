@@ -18,6 +18,7 @@ nav_pages:
   - about.md
   - search.html
   - historicSite.md
+  - _includes/wiki/index.html
 
 footer_pages:
   - fine-print.md
@@ -76,6 +77,7 @@ exclude:
 
 include:
   - search.json
+  - _includes/wiki/
 
 theme: null
 permalink: pretty
