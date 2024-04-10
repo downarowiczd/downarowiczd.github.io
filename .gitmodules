@@ -2,3 +2,7 @@
 	path = _includes/wiki
 	url = https://github.com/downarowiczd/d365-fo-developer-wiki
 	branch = gh-pages
+[submodule "wiki"]
+	path = wiki
+	url = https://github.com/downarowiczd/d365-fo-developer-wiki
+	branch = gh-pages
