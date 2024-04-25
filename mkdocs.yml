@@ -1,18 +1,106 @@
 site_name: Dominik Downarowicz
-repo_url: https://github.com/downarowiczd/downarowiczd.github.io/tree/mkdocs
+repo_url: https://github.com/downarowiczd/downarowiczd.github.io/
 repo_name: Github
+copyright: Copyright &copy; 2020 - 2024 Dominik Downarowicz
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/downarowiczd
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/dominik-downarowicz/
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
+    Python: py
+    Dynamics365: d365
+    Warehouse: wms
 theme:
   name: material
+  custom_dir: overrides
+  language: en
+  locale: en
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil 
     view: material/eye
+  tag:
+    html: fontawesome/brands/html5
+    js: fontawesome/brands/js
+    css:  fontawesome/brands/css3
+    py: fontawesome/brands/python
+    d365: material-microsoft-dynamics-365
+    wms: fontawesome/solid/warehouse
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - announce.dismiss
     - content.action.edit
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer
+    - navigation.path
+    - toc.integrate
+    - navigation.top
+    - content.code.copy
 plugins:
+  - tags:
+      enabled: true
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
   - git-authors:
       enabled: true
+  - search:
+      enabled: true
+  - blog:
+      blog_dir: .
+      post_excerpt: required
+      post_excerpt_separator: <!-- more -->
+  - rss:
+      match_path: posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets

@@ -1,14 +1,17 @@
 ---
 title: AX2009 Cancel SalesOrder with empty SalesLine
-description: With the help of this job, you can cancel a sales order that has an empty salesline
+slug: With the help of this job, you can cancel a sales order that has an empty salesline
+date: 2023-08-05
+authors:
+    - downardo
 ---
 
 ## Description
 
-One customer had the the problem, that some of their sales employees cancelled sales orders that they created by deleting all sales lines and letting the sales order open.
+One of our customers had the the problem, that some of their sales employees cancelled sales orders that they created by deleting all sales lines and letting the sales order open.
 So now the customer had the problem that they had many sales orders open, and all the queries in their batch job selected more and more orders to check them. So some batches were taking much longer. To solve the problem I wrote a job that selectes all open sales orders (status = backorder) with a position count of 0 (sales line count). For the sales line count I used a already made function by use in the SalesTable controller class.
 
-```text
+```xpp
 public RefRecId getPositionCount()
 {
     SalesLine     ltabSalesLine;
@@ -20,13 +23,13 @@ public RefRecId getPositionCount()
     return ltabSalesLine.RecId;
 }
 ```
-
+<!-- more -->
 After finding a sales order for that, the script creates a new sales line entry with one of our dummy items (999999999). And after that we cancel the appropriate position in the system. The part **InterCompanyUpdateRemPhys::synchronize** is needed to update sales remain amount in the sales line. It is doing exactly the same, as the form **SalesUpdateRemain** in AX2009. As the difference from remain qty to 0 (delta) is remain qty, I only took the entry **ledtQtyDifference = ltabSalesLine.RemainSalesPhysical;**.
 For our case with inserting a sales line and cancelling it that is enough, but in other scenarions you need to differenciate between *remain invent physical* and *remain sales physical*. Have fun :smile:
 
 ## AX2009 Job
 
-```text
+```xpp
 static void down1_AuftragStornieren(Args _args)
 {
     //A200513157

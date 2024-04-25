@@ -1,15 +1,18 @@
 ---
 title: AX2009 Recalculate Vendor Cash Disc
-description: AX2009 Recalculate Vendor Cash Disc with X++
+slug: AX2009 Recalculate Vendor Cash Disc with X++
+date: 2023-07-28
+authors:
+    - downardo
 ---
 
 ## Description
 
 With this job you can recalculate the cash disc amount in the vendor open transactions. You can change the query to filter different transactions.
-
+<!-- more -->
 ## AX2009 Job
 
-```text
+```xpp
 static void down1_VendRecalcCashDisc(Args _args)
 {
     VendTransCashDisc   ltabVendTransCashDisc;

@@ -1,15 +1,18 @@
 ---
 title: AX2009 Settle Customer Open Transcation
-description: AX2009 Settle Customer Open Transcation with X++
+slug: AX2009 Settle Customer Open Transcation with X++
+date: 2023-07-28
+authors:
+    - downardo
 ---
 
 ## Description
 
 We have sometimes the problem in AX2009 that a voucher was posted the settle an open transaction of a customer but only a partial amount has been settled. So the job search all open transaction that should have been closed and settles them.
-
+<!-- more -->
 ## AX2009 Job
 
-```text
+```xpp
 static void down1_SettleCustOpenTransactions(Args _args)
 {
     SpecTransManager    lclsSpecTransManager;

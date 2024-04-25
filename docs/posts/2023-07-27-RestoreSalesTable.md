@@ -1,11 +1,16 @@
 ---
 title: AX2009 Restore deleted sales table without restoring sales line
 description: Restore deleted sales table without restoring sales line with X++
+date: 2023-07-27
+authors:
+    - downardo
 ---
 
 ## Problem
 
 There are sometimes constelations where the user deletes the header of the sales order (**sales table**), but AX2009 will not delete the appropiate sales line entries. So we end up with open sales line entries without the header. That causes some problems when posting invoices and so on.
+
+<!-- more -->
 
 ## Solution
 
@@ -13,7 +18,7 @@ You could try to cancel the entries directly over AOT in the databrowser. But I 
 
 ### AX2009 Job
 
-```text
+```xpp
 static void down1_RestoreSalesTableWithoutSalesLine(Args _args)
 {
     SalesTableDelete    ltabsalesTableDelete;

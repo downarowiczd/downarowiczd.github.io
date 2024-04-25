@@ -1,6 +1,9 @@
 ---
 title: Big O Notation
-description: Big O Notation is used to describe how long an alogrithm will take to run in the worst case scenario.
+slug: Big O Notation is used to describe how long an alogrithm will take to run in the worst case scenario.
+date: 2023-10-13
+authors:
+    - downardo
 ---
 
 ## Alogrithm
@@ -15,6 +18,7 @@ And for that reason we have the Big O Notation.
 
 The Big O Notation describes the worst case scenario of how complex our algorithm is. Big O defines how the performance is going to change if we are going to increase the input size for the alogrithm. But it does not tell you how fast the alogrithm is going to run. In the time complexity it can tell you about how long it is going to run.
 Big O notation uses algebraic expressions to describe the complexity of the alogrithm.
+<!-- more -->
 It measures the efficiency and performance of your algorithm using time and space complexity. So the space complexity is going to tell you how much memory is going to be used to execute the alogrithm. And the time complexity goint to tell you how long the alogrithm is going to run.
 
 For my work and for many other developers it is important to have a look a the time complexity of their algorithms.

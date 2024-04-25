@@ -1,16 +1,19 @@
 ---
 title: D365 F&O IOrganizationService for Dataverse
-description: Use the IOrganizationService connection to interact with Dataverse
+slug: Use the IOrganizationService connection to interact with Dataverse
+date: 2024-01-25
+authors:
+    - downardo
 ---
 
 ## IOrganizationService for Dataverse connections
 
 With F&O environments becoming linked to Power Platform environments opens us with the opportunity to interact from F&O straight with Dataverse.
 Microsoft enabled us the usage of the IOrganizationService in F&O to connect to Dataverse and perform for example CRUD operations.
-
+<!-- more -->
 To be able to use that feature, we need to enable in the **PPAC (Power Platform Admin Center)** in your environment under settings -> Features the following setting:
 
-![PPAC impersonation settings](/assets/img/FODataverseImpersonation.png){:width="70%"}
+![PPAC impersonation settings](../assets/img/FODataverseImpersonation.png)
 
 *From March 2024 that setting should be enabled by default on all environments.*
 
@@ -20,13 +23,13 @@ Just imagine how many new possibilities emerge with the ability to connect F&O w
 
 I posted a short video demonstrating my little runnable class example on [LinkedIn](https://www.linkedin.com/posts/activity-7152688922899234816-01yO?utm_source=share&utm_medium=member_desktop).
 
-![Example](/assets/img/IOrganizationServiceExample.png){:width="70%"}
+![Example](../assets/img/IOrganizationServiceExample.png)
 
 Link to my [Microsoft Dynamics 365 blog entry](https://community.dynamics.com/blogs/post/?postid=d5bfeb7e-99bb-ee11-92bd-000d3a01c528)
 
 ## Code example
 
-```text
+```xpp
 using Microsoft.Xrm.Sdk;
 internal final class PDEDataverseTest
 {
