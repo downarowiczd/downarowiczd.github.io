@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "baseUrl": "types",
-    "strictNullChecks": true,
-    "esModuleInterop": true
-  },
-  "typeRoots": ["types"],
-  "allowSyntheticDefaultImports": true
-}

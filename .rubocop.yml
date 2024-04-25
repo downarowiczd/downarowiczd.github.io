@@ -1,9 +1,0 @@
-AllCops:
-  NewCops: enable
-  Exclude:
-    - '_site/**/*'
-    - 'node_modules/**/*'
-    - 'vendor/bundle/**/*'
-  TargetRubyVersion: 3.0.5
-
-require: rubocop-performance
