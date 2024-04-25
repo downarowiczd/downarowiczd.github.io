@@ -9,28 +9,26 @@ extra:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/dominik-downarowicz/
   tags:
-    HTML5: html
-    JavaScript: js
-    CSS: css
-    Python: py
     Dynamics365: d365
     Warehouse: wms
+    C#: csharp
+    .NET: dotNet
+    Azure DevOps: devops
 theme:
-  name: material
-  custom_dir: overrides
   language: en
   locale: en
+  name: material
+  custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil 
     view: material/eye
   tag:
-    html: fontawesome/brands/html5
-    js: fontawesome/brands/js
-    css:  fontawesome/brands/css3
-    py: fontawesome/brands/python
-    d365: material-microsoft-dynamics-365
-    wms: fontawesome/solid/warehouse
+    d365: simple/dynamics365
+    wms: material/warehouse
+    csharp: material/language-csharp
+    dotNet: material/dot-net
+    devops: material/microsoft-azure-devops
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
