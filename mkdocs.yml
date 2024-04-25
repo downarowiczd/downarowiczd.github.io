@@ -1,0 +1,18 @@
+site_name: Dominik Downarowicz
+repo_url: https://github.com/downarowiczd/downarowiczd.github.io/tree/mkdocs
+repo_name: Github
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
+  features:
+    - announce.dismiss
+    - content.action.edit
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - git-authors:
+      enabled: true
