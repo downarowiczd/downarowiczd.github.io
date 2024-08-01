@@ -14,7 +14,7 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-typescript": "^7.24.7",
-    "@fortawesome/fontawesome-common-types": "^6.5.1",
+    "@fortawesome/fontawesome-common-types": "^6.6.0",
     "@types/anchor-js": "^5.0.0",
     "@types/bootstrap": "^5.2.6",
     "@types/node": "^22.0.2",
