@@ -2,7 +2,7 @@
   "author": "Dominik Downarowicz",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
-    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.7.1",
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "@hotwired/turbo": "^8.0.12",
     "anchor-js": "^5.0.0",
