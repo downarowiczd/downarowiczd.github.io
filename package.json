@@ -34,7 +34,7 @@
     "npm-check-updates": "^17.1.13",
     "postcss-loader": "^8.1.1",
     "precss": "^4.0.0",
-    "sass": "^1.81.0",
+    "sass": "^1.83.0",
     "sass-loader": "^16.0.3",
     "source-map-loader": "^5.0.0",
     "standard": "^17.1.2",
