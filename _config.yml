@@ -27,12 +27,15 @@ disqus:
 
 # Links to include on the contact page
 contact_links:
-  - name: Twitter
-    url: https://twitter.com/DOWNARDO
-    icon: twitter
+  - name: Email
+    url: "mailto:dominik@downardo.at"
+    icon: fa-solid fa-envelope
+  - name: GitHub
+    url: https://github.com/downarowiczd
+    icon: fa-brands fa-github
   - name: LinkedIn
     url: https://www.linkedin.com/in/dominik-downarowicz/
-    icon: linkedin
+    icon: fa-brands fa-linkedin
 
 # Front matter defaults
 defaults:
