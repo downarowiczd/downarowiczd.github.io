@@ -26,7 +26,7 @@ static void down1_createSalesPickingList(Args _args)
 
 Currently I do not know how to create a picking list by code for certain sales order positions. I once saw on an another blog some aproach by modifing the salesparm table before running the SalesFormLetter class. So let's go throught that aproach.
 
-So we create the pickling list still with the SalesFormLetter class but we performe the ***update()*** (see the previous job) methode manually and before calling ***run()***  we edit the **SalesParmLine**.
+So we create the pickling list still with the SalesFormLetter class but we performe the **_update()_** (see the previous job) methode manually and before calling **_run()_** we edit the **SalesParmLine**.
 
 ```text
 static void down1_createSalesPickingListLine(Args _args)
@@ -40,7 +40,7 @@ static void down1_createSalesPickingListLine(Args _args)
 
 
     lclsSalesFormLetter.salesTable(ltabSalesTable);
-    
+
     lclsSalesFormLetter.transDate(systemDateGet());
     lclsSalesFormLetter.specQty(SalesUpdate::All);
     lclsSalesFormLetter.proforma(lclsSalesFormLetter.salesParmUpdate().Proforma);
@@ -51,7 +51,7 @@ static void down1_createSalesPickingListLine(Args _args)
     lclsSalesFormLetter.printShippingLabel(NoYes::No);
     lclsSalesFormLetter.usePrintManagement(false);
     lclsSalesFormLetter.creditRemaining(lclsSalesFormLetter.creditRemaining());
-    
+
     lclsSalesFormLetter.createParmUpdate();
 
     lclsSalesFormLetter.initParameters(
@@ -59,7 +59,7 @@ static void down1_createSalesPickingListLine(Args _args)
         Printout::Current);
 
     lclsSalesFormLetter.initLinesQuery();
-    
+
     lclsSalesFormLetter.giroType(ltabSalesTable.GiroType);
 
     // Delete unwanted records in SalesParmLine
@@ -91,10 +91,10 @@ static void down1_createSalesPickingListQuery(Args _args)
     lclsQuery = new Query(QueryStr(SalesUpdate));
     lclsQuery.dataSourceTable(tablenum(SalesTable)).addRange(fieldnum(SalesTable, SalesId)).value("A221624845, A221624846, A221624847");
     lclsQueryRun = new QueryRun(lclsQuery);
-    
+
     lclsSalesFormLetter.chooseLinesQuery(lclsQueryRun);
-    
-    
+
+
     lclsSalesFormLetter.transDate(systemDateGet());
     lclsSalesFormLetter.specQty(SalesUpdate::All);
     lclsSalesFormLetter.proforma(lclsSalesFormLetter.salesParmUpdate().Proforma);
@@ -105,12 +105,12 @@ static void down1_createSalesPickingListQuery(Args _args)
     lclsSalesFormLetter.printShippingLabel(NoYes::No);
     lclsSalesFormLetter.usePrintManagement(false);
     lclsSalesFormLetter.creditRemaining(lclsSalesFormLetter.creditRemaining());
-    
+
     lclsSalesFormLetter.createParmUpdate();
-    
+
     lclsSalesFormLetter.chooseLines(null, true);
     lclsSalesFormLetter.reArrangeNow(false);
-    
+
     lclsSalesFormLetter.run();
 }
 ```

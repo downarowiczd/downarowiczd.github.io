@@ -12,7 +12,7 @@ To be able to use that feature, we need to enable in the **PPAC (Power Platform 
 
 ![PPAC impersonation settings](/assets/img/FODataverseImpersonation.png){:width="70%"}
 
-*From March 2024 that setting should be enabled by default on all environments.*
+_From March 2024 that setting should be enabled by default on all environments._
 
 With that we can create X++ code to interact with Dataverse. We can not only perform CRUD operations on Dataverse entities, we can check if a user has certain security roles, or if solutions/apps are installed, and we can call custom web APIs in Dataverse.
 Microsoft already started using this feature in applications like the new Business Performance Analytics (BPA) preview or the CoPilot features use this connection. Microsoft made for example the SysDataverseLookup class to make it easier to create F&O lookups with Dataverse data.
@@ -39,7 +39,7 @@ internal final class PDEDataverseTest
     {
         new PDEDataverseTest().run();
     }
-    
+
     public void run()
     {
         cds = PDEDataverseTest::getOrganizationServiceForCurrentUser(consumerName);
@@ -53,19 +53,19 @@ internal final class PDEDataverseTest
         lookupTest = dialog.addField(extendedTypeStr(String30), "ExampleLookup");
         lookupTest.registerOverrideMethod(methodStr(FormStringControl, lookup), methodStr(PDEDataverseTest, lookupCDS), this);
         lookupTest.enabled(true);
-        
+
         dialog.run();
         if(dialog.closedOk())
         {
             Info(strFmt("Input: %1, Lookup: %2", inputField.value(), lookupTest.value()));
             try
             {
-                
+
                 Microsoft.Xrm.Sdk.Entity testEntity = new Entity("cr2cd_pde_fo_dataverse_test");
                 Microsoft.Xrm.Sdk.AttributeCollection attr = testEntity.Attributes;
                 attr.Add("cr2cd_name",inputField.value());
                 attr.Add("cr2cd_secondinput","PDE TEST Dataverse Service");
-                testEntity.Attributes = attr;                
+                testEntity.Attributes = attr;
                 cds.Create(testEntity);
             }
             catch (Exception::CLRError)
@@ -74,12 +74,12 @@ internal final class PDEDataverseTest
                 error(ex.Message);
             }
         }
-        
+
     }
     public void lookupCDS(FormStringControl _control)
     {
         SysDataverseLookup lookup = SysDataverseLookup::construct(_control, 'cr2cd_pde_fo_dataverse_test');
-        
+
         // Set the org service explicity since implicit connects are not yet allowed
         lookup.parmOrgService(cds);
         lookup.addLookupColumn('cr2cd_name', Types::String, "@SYS7399");
@@ -108,7 +108,7 @@ internal final class PDEDataverseTest
         {
             throw error("Dataverse not available!");
         }
-        
+
     }
 }
 ```

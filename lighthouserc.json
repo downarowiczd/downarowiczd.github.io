@@ -7,13 +7,13 @@
         "http://localhost/about/index.html",
         "http://localhost/2023/08/05/CancelSalesOrderWithoutPosition/index.html"
       ]
-    }, 
+    },
     "assert": {
       "preset": "lighthouse:no-pwa",
       "assertions": {
         "csp-xss": "off",
         "unused-javascript": "off",
-        "unused-css-rules": "off", 
+        "unused-css-rules": "off",
         "robots-txt": "off",
         "color-contrast": "warn",
         "offscreen-images": "warn",

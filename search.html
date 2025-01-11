@@ -3,22 +3,27 @@ title: Search
 permalink: /search/
 layout: page
 ---
+
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="Search...">
-<br/>
-<ul id="results-container"></ul>
-<br/>
+  <input type="text" id="search-input" placeholder="Search..." />
+  <br />
+  <ul id="results-container"></ul>
+  <br />
 </div>
 <!-- Script pointing to search-script.js -->
-<script src="{{ "/assets/js/search-script.js" | absolute_url }}" type="text/javascript"></script>
+<script
+  src="{{ '/assets/js/search-script.js' | absolute_url }}"
+  type="text/javascript"
+></script>
 <!-- Configuration -->
 <!--<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>-->
 <script>
-var sjs = SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  searchResultTemplate: '<div class="row mb-2"><div class="col-sm-9"><a href="{url}">{title}</a></div><div class="col-sm-3 text-muted text-md-end"><small>{date}</small></div></div>',
-  json: '/search.json'
-})
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    searchResultTemplate:
+      '<div class="row mb-2"><div class="col-sm-9"><a href="{url}">{title}</a></div><div class="col-sm-3 text-muted text-md-end"><small>{date}</small></div></div>',
+    json: '/search.json',
+  });
 </script>

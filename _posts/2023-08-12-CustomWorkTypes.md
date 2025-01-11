@@ -20,7 +20,7 @@ Under **Custom method** you can add your custom method that should be executed.
 ## Custom method
 
 Below you can see a example code for a custom work type. You need to implement **WhsIWorkTypeCustomProcessor** and do not forget to decorate the class with **WhsWorkTypeCustomProcessorFactor** and add as the parameter the custom method name of the corresponding custom work type you created or going to create.
-And then you can add your code that should be executed in the **process** function. You can read out over **_parameters** different data. Like for example the workline or the captured data from the work only if you checked **Capture data**.
+And then you can add your code that should be executed in the **process** function. You can read out over **\_parameters** different data. Like for example the workline or the captured data from the work only if you checked **Capture data**.
 
 Have fun :smile:
 
@@ -37,7 +37,7 @@ public class SampleUpdateWorkType implements WhsIWorkTypeCustomProcessor
         str notes               = _parameters.data;
 
         //DO SOMETHING WITH THE DATA
-        
+
     }
 
 }

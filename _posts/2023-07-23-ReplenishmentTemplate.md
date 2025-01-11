@@ -75,7 +75,7 @@ The code can alos be run as a custom script!
                     lclsQueryBuildDataSource = lclsQuery.dataSourceTable(tableNum(InventDimCombination));
 
                     lclsQueryBuildDataSource.addRange(fieldNum(InventDimCombination, ItemId)).value(conPeek(lconItemInfo, 1));
-                    
+
                     lclsQueryBuildDataSourceDim = lclsQueryBuildDataSource.addDataSource(tableNum(InventDim));
                     lclsQueryBuildDataSourceDim.relations(true);
                     lclsQueryBuildDataSourceDim.joinMode(JoinMode::ExistsJoin);
@@ -91,7 +91,7 @@ The code can alos be run as a custom script!
 
 
             lclsQueryRun = new QueryRun(lclsQuery);
-            
+
 
             //Differnece between Product and ProductVariant for QueryName
             if(ltabWHSReplenishmentTemplateLine.ProductQueryMode == WHSProductQueryMode::Item)
@@ -116,7 +116,7 @@ The code can alos be run as a custom script!
                     lclsQueryRun.name("@SYP4980030");
                 }
             }
-            
+
             lclsQueryRun.saveUserSetup(false);
 
             ttsbegin;
@@ -133,7 +133,7 @@ The code can alos be run as a custom script!
             lintCounter++;
             ttscommit;
         }
-    
+
         info(strfmt("Completed: Processed %1 Replenishment Template Lines", lintCounter));
     }
 ```

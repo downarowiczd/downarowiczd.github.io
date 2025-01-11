@@ -37,17 +37,15 @@ contact_links:
 
 # Front matter defaults
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: ''
+      type: 'posts'
     values:
       layout: post
       comments: true
-  -
-    scope:
-      path: ""
-      type: "pages"
+  - scope:
+      path: ''
+      type: 'pages'
     values:
       layout: page
       comments: false
@@ -69,10 +67,10 @@ exclude:
   - sass/
   - script/
   - prettier.config.js
-  - "*.gem"
-  - "*.gemspec"
-  - "*.json"
-  - "*.ts"
+  - '*.gem'
+  - '*.gemspec'
+  - '*.json'
+  - '*.ts'
 
 include:
   - search.json
@@ -81,4 +79,4 @@ include:
 theme: null
 permalink: pretty
 
-keep_files: ["wiki"]
+keep_files: ['wiki']
