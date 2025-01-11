@@ -13,19 +13,16 @@ layout: default
       {% if page.description %}
       <div class="lead">
         {% capture tldr %}
-        <strong>
-          <abbr
-            title='"Too Long; Didn&apos;t Read" &mdash; Internet shorthand for "a brief summary of longer writing"'
-            class="initialism"
-            data-bs-toggle="tooltip"
-            data-bs-placement="right"
-            >TL;DR</abbr
-          >:
-        </strong>
-        {% endcapture %} {{ page.description | prepend: tldr | markdownify |
+<strong>
+  <abbr title="&quot;Too Long; Didn't Read&quot; &mdash; Internet shorthand for &quot;a brief summary of longer writing&quot;" class="initialism" data-bs-toggle="tooltip" data-bs-placement="right">TL;DR</abbr>: 
+</strong>
+        {% endcapture %} 
+        
+        {{ page.description | prepend: tldr | markdownify |
         smartify }}
       </div>
-      {% endif %} {% if page.archived %}
+      {% endif %} 
+      {% if page.archived %}
       <div class="alert alert-warning" role="alert">
         <strong>❗ Heads up!</strong> This post is archived and here for
         historical purposes. It may no longer be accurate or reflect my views.

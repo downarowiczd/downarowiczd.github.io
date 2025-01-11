@@ -4,3 +4,5 @@
 **/node_modules
 site.webmanifest
 search.json
+**/_layouts
+_layouts
