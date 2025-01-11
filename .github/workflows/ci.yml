@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: install packages
+        run: |
+          sudo apt-get update -y -qq
+          sudo apt-get install -y libgsl0-dev libmagick++-dev
+          which gsl-config
+
       - uses: actions/checkout@v4
 
       - uses: ruby/setup-ruby@v1
