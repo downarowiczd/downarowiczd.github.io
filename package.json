@@ -20,8 +20,8 @@
     "@types/node": "^22.10.3",
     "@types/webpack": "^5.28.1",
     "@typescript-eslint/eslint-plugin": "^8.19.0",
-    "@typescript-eslint/utils": "^8.19.1",
     "@typescript-eslint/parser": "^8.16.0",
+    "@typescript-eslint/utils": "^8.19.1",
     "autoprefixer": "^10.4.20",
     "babel-loader": "^9.2.1",
     "babel-preset-env": "^1.7.0",
@@ -55,7 +55,7 @@
   "scripts": {
     "build": "npm run lint && npm run webpack",
     "lint": "npm run lint-js && npm run lint-json",
-    "lint-js": "eslint ./ --ext .js,.jsx,.ts,.tsx --fix",
+    "lint-js": "eslint ./ --fix",
     "lint-json": "jsonlint package.json --in-place --sort-keys",
     "test": "script/cibuild",
     "webpack": "webpack"
