@@ -28,7 +28,7 @@ disqus:
 # Links to include on the contact page
 contact_links:
   - name: Email
-    url: "mailto:dominik@downardo.at"
+    url: 'mailto:dominik@downardo.at'
     icon: fa-solid fa-envelope
   - name: GitHub
     url: https://github.com/downarowiczd
