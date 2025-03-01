@@ -31,7 +31,7 @@
     "file-loader": "^6.2.0",
     "jsonlint": "^1.6.3",
     "mini-css-extract-plugin": "^2.9.2",
-    "npm-check-updates": "^17.1.14",
+    "npm-check-updates": "^17.1.15",
     "postcss-loader": "^8.1.1",
     "precss": "^4.0.0",
     "prettier": "3.4.2",
