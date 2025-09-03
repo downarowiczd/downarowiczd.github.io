@@ -8,7 +8,8 @@ require 'psych'
 
 options = {
   'source' => File.expand_path('../', __dir__),
-  'lsi' => true
+  'lsi' => true,
+  'verbose' => true,
 }
 
 ignore_list = [
