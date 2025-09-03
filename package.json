@@ -10,7 +10,7 @@
     "fastest-levenshtein": "^1.0.16",
     "simple-jekyll-search": "^1.10.0"
   },
-  "description": "[![Build Status](https://travis-ci.org/benbalter/retlab.svg?branch=master)](https://travis-ci.org/benbalter/retlab)",
+  "description": "Dominik Downarowicz Blog",
   "devDependencies": {
     "@babel/core": "^7.28.3",
     "@babel/preset-typescript": "^7.27.1",
@@ -45,13 +45,13 @@
     "webpack": "^5.101.3",
     "webpack-cli": "^6.0.1"
   },
-  "homepage": "https://github.com/benbalter/retlab#readme",
+  "homepage": "https://github.com/downarowiczd/downarowiczd.github.io#readme",
   "license": "MIT",
   "main": "script/server",
-  "name": "retlab",
+  "name": "downarowiczd.github.io",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benbalter/retlab.git"
+    "url": "git+https://github.com/downarowiczd/downarowiczd.github.io.git"
   },
   "scripts": {
     "build": "npm run lint && npm run webpack",
