@@ -25,8 +25,8 @@ group :test, :development do
   # gem 'gsl', github: 'SciRuby/rb-gsl' - Not compatible with Ruby 3.0
   gem 'html-proofer'
   gem 'nokogiri'
-  gem 'numo-linalg' if !Gem.win_platform?
-  gem 'numo-narray' if !Gem.win_platform?
+  gem 'numo-linalg' unless Gem.win_platform?
+  gem 'numo-narray' unless Gem.win_platform?
   gem 'pry'
   gem 'rake'
   gem 'rspec'
