@@ -34,6 +34,7 @@ jobs:
           VALIDATE_CSS_PRETTIER: false
           VALIDATE_HTML_PRETTIER: false
           VALIDATE_JAVASCRIPT_PRETTIER: false
+          VALIDATE_YAML_PRETTIER: false
           RUBY_CONFIG_FILE: .rubocop.yml
           LINTER_RULES_PATH: .
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

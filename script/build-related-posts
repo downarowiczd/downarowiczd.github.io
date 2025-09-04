@@ -9,7 +9,7 @@ require 'psych'
 options = {
   'source' => File.expand_path('../', __dir__),
   'lsi' => true,
-  'verbose' => true,
+  'verbose' => true
 }
 
 ignore_list = [
