@@ -21,7 +21,7 @@
     "@types/webpack": "^5.28.1",
     "@typescript-eslint/eslint-plugin": "^8.41.0",
     "@typescript-eslint/parser": "^8.38.0",
-    "@typescript-eslint/utils": "^8.35.1",
+    "@typescript-eslint/utils": "^8.45.0",
     "autoprefixer": "^10.4.21",
     "babel-loader": "^10.0.0",
     "babel-preset-env": "^1.7.0",
