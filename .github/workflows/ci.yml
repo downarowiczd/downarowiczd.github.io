@@ -17,7 +17,7 @@ jobs:
           sudo apt-get install -y libgsl0-dev libmagick++-dev
           which gsl-config
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -45,7 +45,7 @@ jobs:
     needs: test
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - uses: actions/download-artifact@v6
         with:
