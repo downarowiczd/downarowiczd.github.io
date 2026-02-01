@@ -12,7 +12,7 @@
   },
   "description": "Dominik Downarowicz Blog",
   "devDependencies": {
-    "@babel/core": "^7.28.5",
+    "@babel/core": "^7.29.0",
     "@babel/preset-typescript": "^7.28.5",
     "@fortawesome/fontawesome-common-types": "^7.1.0",
     "@types/anchor-js": "^5.0.0",
