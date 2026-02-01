@@ -30,7 +30,7 @@
     "eslint-plugin-import": "^2.32.0",
     "file-loader": "^6.2.0",
     "jsonlint": "^1.6.3",
-    "mini-css-extract-plugin": "^2.9.4",
+    "mini-css-extract-plugin": "^2.10.0",
     "npm-check-updates": "^19.3.2",
     "postcss-loader": "^8.2.0",
     "precss": "^4.0.0",
