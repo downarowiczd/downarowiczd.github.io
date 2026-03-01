@@ -5,12 +5,12 @@
   */
 
 /*!
- * Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- * Copyright 2025 Fonticons, Inc.
+ * Copyright 2026 Fonticons, Inc.
  */
 
 /*!
-Turbo 8.0.13
-Copyright © 2025 37signals LLC
+Turbo 8.0.23
+Copyright © 2026 37signals LLC
  */
