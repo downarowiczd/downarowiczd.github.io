@@ -34,7 +34,7 @@
     "npm-check-updates": "^22.2.9",
     "postcss-loader": "^8.2.1",
     "precss": "^4.0.0",
-    "prettier": "3.9.4",
+    "prettier": "3.9.6",
     "sass": "^1.101.0",
     "sass-loader": "^17.0.0",
     "source-map-loader": "^5.0.0",
