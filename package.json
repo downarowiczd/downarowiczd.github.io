@@ -19,7 +19,7 @@
     "@types/bootstrap": "^5.2.11",
     "@types/node": "^26.6.3",
     "@types/webpack": "^5.28.1",
-    "@typescript-eslint/eslint-plugin": "^8.68.0",
+    "@typescript-eslint/eslint-plugin": "^8.71.0",
     "@typescript-eslint/parser": "^8.71.0",
     "@typescript-eslint/utils": "^8.68.0",
     "autoprefixer": "^10.5.4",
